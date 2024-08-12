@@ -14,7 +14,7 @@ RUN gradle clean build --no-daemon
 FROM openjdk:17.0.2-jre-slim
 
 # Exponer el puerto que utilizará la aplicación
-EXPOSE 8081
+EXPOSE 8080
 
 # Copiar el archivo JAR construido desde la etapa anterior
 COPY --from=build /app/build/libs/api-eventos-0.0.1-SNAPSHOT.jar /app/api-eventos-0.0.1-SNAPSHOT.jar
