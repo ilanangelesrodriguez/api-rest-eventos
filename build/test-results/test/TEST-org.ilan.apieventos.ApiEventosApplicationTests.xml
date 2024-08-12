@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ilan.apieventos.ApiEventosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-12T22:00:43" hostname="DESKTOP-STN2MJI" time="3.034">
+<testsuite name="org.ilan.apieventos.ApiEventosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-12T23:19:34" hostname="DESKTOP-STN2MJI" time="1.856">
   <properties/>
-  <testcase name="contextLoads()" classname="org.ilan.apieventos.ApiEventosApplicationTests" time="3.034"/>
-  <system-out><![CDATA[17:00:12.068 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.ilan.apieventos.ApiEventosApplicationTests]: ApiEventosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:00:12.592 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.ilan.apieventos.ApiEventosApplication for test class org.ilan.apieventos.ApiEventosApplicationTests
+  <testcase name="contextLoads()" classname="org.ilan.apieventos.ApiEventosApplicationTests" time="1.856"/>
+  <system-out><![CDATA[18:19:08.483 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.ilan.apieventos.ApiEventosApplicationTests]: ApiEventosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:19:08.990 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.ilan.apieventos.ApiEventosApplication for test class org.ilan.apieventos.ApiEventosApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,29 +14,29 @@
 
  :: Spring Boot ::                (v3.3.2)
 
-2024-08-12T17:00:14.560-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : Starting ApiEventosApplicationTests using Java 17.0.6 with PID 23736 (started by ILAN in C:\Users\ILAN\Documents\api-eventos)
-2024-08-12T17:00:14.583-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2024-08-12T17:00:18.132-05:00  INFO 23736 --- [api-eventos] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-12T17:00:18.397-05:00  INFO 23736 --- [api-eventos] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 238 ms. Found 6 JPA repository interfaces.
-2024-08-12T17:00:20.933-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-12T17:00:21.193-05:00  INFO 23736 --- [api-eventos] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-08-12T17:00:21.327-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-12T17:00:22.772-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-12T17:00:22.872-05:00  INFO 23736 --- [api-eventos] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-12T17:00:26.316-05:00  INFO 23736 --- [api-eventos] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@644947ee
-2024-08-12T17:00:26.320-05:00  INFO 23736 --- [api-eventos] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-12T17:00:26.622-05:00  WARN 23736 --- [api-eventos] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-12T17:00:34.337-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-08-12T17:00:38.060-05:00  INFO 23736 --- [api-eventos] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-12T17:00:40.167-05:00  WARN 23736 --- [api-eventos] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-12T17:00:40.287-05:00  WARN 23736 --- [api-eventos] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2024-08-12T18:19:10.768-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : Starting ApiEventosApplicationTests using Java 17.0.6 with PID 17008 (started by ILAN in C:\Users\ILAN\Documents\api-eventos)
+2024-08-12T18:19:10.771-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T18:19:13.689-05:00  INFO 17008 --- [api-eventos] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12T18:19:13.955-05:00  INFO 17008 --- [api-eventos] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215 ms. Found 6 JPA repository interfaces.
+2024-08-12T18:19:15.826-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12T18:19:16.139-05:00  INFO 17008 --- [api-eventos] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12T18:19:16.311-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-12T18:19:17.891-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12T18:19:18.008-05:00  INFO 17008 --- [api-eventos] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-12T18:19:21.595-05:00  INFO 17008 --- [api-eventos] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@714bffd5
+2024-08-12T18:19:21.610-05:00  INFO 17008 --- [api-eventos] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-12T18:19:21.907-05:00  WARN 17008 --- [api-eventos] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-12T18:19:26.782-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12T18:19:30.629-05:00  INFO 17008 --- [api-eventos] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12T18:19:31.828-05:00  WARN 17008 --- [api-eventos] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12T18:19:31.906-05:00  WARN 17008 --- [api-eventos] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 66466b2c-a26c-4ae1-9955-955f05b5e28a
+Using generated security password: cb3e58d8-f300-4dbd-bc25-2324e104e689
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2024-08-12T17:00:40.478-05:00  INFO 23736 --- [api-eventos] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2024-08-12T17:00:43.628-05:00  INFO 23736 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : Started ApiEventosApplicationTests in 30.229 seconds (process running for 40.626)
+2024-08-12T18:19:31.969-05:00  INFO 17008 --- [api-eventos] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-12T18:19:34.567-05:00  INFO 17008 --- [api-eventos] [    Test worker] o.i.a.ApiEventosApplicationTests         : Started ApiEventosApplicationTests in 24.788 seconds (process running for 30.238)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
