@@ -1,4 +1,4 @@
-# Usar una imagen base con JDK 8 y Gradle
+# Usar una imagen base con Gradle y JDK 17
 FROM gradle:8.3-jdk17 AS build
 
 # Establecer un directorio de trabajo
@@ -8,10 +8,10 @@ WORKDIR /app
 COPY . /app
 
 # Ejecutar Gradle para construir el proyecto
-RUN gradle clean build
+RUN gradle clean build --no-daemon
 
-# Crear una nueva imagen basada en OpenJDK 8
-FROM openjdk:17.0.2-jdk-slim
+# Crear una nueva imagen basada en OpenJDK 17 JRE
+FROM openjdk:17.0.2-jre-slim
 
 # Exponer el puerto que utilizará la aplicación
 EXPOSE 8081
