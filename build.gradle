@@ -11,8 +11,10 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
     }
-    sourceCompatibility = '17'
 }
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
 
 configurations {
     compileOnly {
