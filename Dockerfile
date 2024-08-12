@@ -5,7 +5,7 @@ FROM gradle:8.3-jdk17 AS build
 WORKDIR /app
 
 # Copiar archivos de tu proyecto al directorio de trabajo
-COPY src /app
+COPY . /app
 
 # Ejecutar Gradle para construir el proyecto
 RUN gradle clean build
@@ -14,7 +14,7 @@ RUN gradle clean build
 FROM openjdk:17.0.2-jdk-slim
 
 # Exponer el puerto que utilizará la aplicación
-EXPOSE 8080
+EXPOSE 8081
 
 # Copiar el archivo JAR construido desde la etapa anterior
 COPY --from=build /app/build/libs/api-eventos-0.0.1-SNAPSHOT.jar /app/api-eventos-0.0.1-SNAPSHOT.jar
