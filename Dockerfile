@@ -17,7 +17,7 @@ FROM openjdk:17.0.2-jdk-slim
 EXPOSE 8080
 
 # Copiar el archivo JAR construido desde la etapa anterior
-COPY --from=build /app/build/libs/api-eventos-0.0.1-SNAPSHOT /app/api-eventos-0.0.1-SNAPSHOT
+COPY --from=build /app/build/libs/api-eventos-0.0.1-SNAPSHOT /app/api-eventos-0.0.1-SNAPSHOT.jar
 
 # Establecer el punto de entrada para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "/app/api-eventos-0.0.1-SNAPSHOT.jar"]
