@@ -42,3 +42,11 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+tasks.named('jar') {
+    enabled = true
+}
+
+bootJar {
+    archiveFileName = 'api-eventos-0.0.1-SNAPSHOT.jar'
+}

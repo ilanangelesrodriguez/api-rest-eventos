@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Ejecutar Gradle para construir el proyecto
-RUN gradle clean build --no-daemon
+RUN gradle clean build
 
 # Crear una nueva imagen basada en OpenJDK 17 JRE
 FROM openjdk:17.0.2-jre-slim
